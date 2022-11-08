@@ -315,8 +315,8 @@ class RSIStrategy(Strategy):
                 print("空单 修改移动止损价",LastPrice + (Pos["kwargs"]["止损"] - Pos["Price"]))
 
 
-Config = {'brokerid':'9999', 'userid':'127922', 'password':'668868', 'appid':'simnow_client_test', 'auth_code':'0000000000000000', 'product_info':'python dll', 'td_address':'tcp://180.168.146.187:10201', 'md_address':'tcp://180.168.146.187:10211'}
-# Config = {'brokerid':'9999', 'userid':'127922', 'password':'668868', 'appid':'simnow_client_test', 'auth_code':'0000000000000000', 'product_info':'python dll', 'td_address':'tcp://180.168.146.187:10130', 'md_address':'tcp://180.168.146.187:10131'}
+Config = {'brokerid':'9999', 'userid':'128622', 'password':'******', 'appid':'simnow_client_test', 'auth_code':'0000000000000000', 'product_info':'python dll', 'td_address':'tcp://180.168.146.187:10201', 'md_address':'tcp://180.168.146.187:10211'}
+# Config = {'brokerid':'9999', 'userid':'128622', 'password':'******', 'appid':'simnow_client_test', 'auth_code':'0000000000000000', 'product_info':'python dll', 'td_address':'tcp://180.168.146.187:10130', 'md_address':'tcp://180.168.146.187:10131'}
 
 if __name__ == '__main__':
     t = CtpGateway()
