@@ -1,8 +1,8 @@
 """
-关注公众号:Ctp接口量化
+关注公众号: Ctp接口量化
 """
-import time
-from API import *	
+
+from Ctpapi import *
 class MACDStrategy(Strategy):
     def __init__(self):
         super().__init__()
